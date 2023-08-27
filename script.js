@@ -10,7 +10,7 @@ console.log(shareBtn);
 
 shareBtn.addEventListener("click", () => {
   const screenWidth = window.innerWidth;
-  if (screenWidth <= 500) {
+  if (screenWidth <= 375) {
     userProfile.classList.add("hidden-mobile");
     shareOptMobile.classList.toggle("hidden-mobile");
   } else {
