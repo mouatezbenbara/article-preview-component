@@ -30,13 +30,7 @@ body {
   position: relative;
   border-radius: 10px 0 0 10px;
 }
-.img-side img {
-  width: 350px;
-  height: 524px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
+
 .content {
   width: 365px;
   margin: 32px 40px;
@@ -196,8 +190,8 @@ body {
   }
   .img-side img {
     width: 327px;
-    height: 490px;
-    bottom: -40px;
+    position: absolute;
+    bottom: -100px;
   }
   .content {
     width: fit-content;
